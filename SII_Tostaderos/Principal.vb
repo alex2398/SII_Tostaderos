@@ -908,6 +908,8 @@ Public Class Principal
             ' Si tiene codigo intracomunitario, será codigo 2
             ' Si tiene nif y el pais no es España, será extranjero, codigo 3
 
+            'prueba GIT
+
             If nif_proveedor <> "" And codigo_pais = "ES" Then
                 tipo_identificador = "01"
             ElseIf intracomunitario <> "" Then
